@@ -1,0 +1,105 @@
+body{
+    font-family:'Gabrito',cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(gympic.jpg);
+    color: white;
+}
+
+.left{
+    /*border: 2px solid red;*/
+    display: inline-block;
+    position:absolute;
+    left: 40px;
+    top: 10px;
+   
+
+}
+.mid{
+    
+    display: block;
+    width: 38%;
+    margin: 12px auto;
+   /* border: 2px solid rgb(0, 255, 4);*/
+
+
+}
+.right{
+    position:absolute;
+    right: 34px;
+    top: 15px;
+    display: inline-block;
+   /* border: 2px solid rgb(255, 234, 0);*/
+
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 08px  ;
+}
+.navbar li a:hover,.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(198, 196, 196);
+}
+.left img{
+    width: 70px;
+    height: 60px;
+    filter: invert(100%);
+}
+.left div{
+    
+    line-height: 8px;
+    
+    text-align: center;
+}
+.btn{
+    font-family: 'Garito', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.625);
+    padding: 4px 14px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(128, 128, 128);
+}
+.container{
+    border: 2px solid rgb(225, 232, 232);
+    margin: 106px 80px;
+    padding: 75px;
+    width: 35%;
+    display: block;
+    border-radius: 15px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    padding: 1 px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 8px;
+    font-family: "gabrito",cursive;
+}
+.btn:hover{
+    background-color: black;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.501);
+    width: 40%;
+    margin: auto;
+}
